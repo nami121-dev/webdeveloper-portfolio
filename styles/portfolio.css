@@ -132,6 +132,10 @@ nav a{
 }
 
 /* main related styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about related styles */
 .about{
@@ -139,6 +143,29 @@ nav a{
   border-radius: 10px;
   background-color: #fff8f3;
   margin: 130px 0px;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.info-title{
+  font-weight: normal;
+  color: #757575;
+}
+.info-description{
+  /* width: 118px;
+  height: 60px; */
+  flex-grow: 0;
+  /* margin: 0 50px 0 0; */
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #474747;      
+}
+.about-info{
+  text-align: center;
 }
 
 /* shared styles */
