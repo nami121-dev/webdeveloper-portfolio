@@ -263,6 +263,10 @@ footer{
   padding: 130px 230px;
   background-color: #fff8f3;
   margin-top: 113px;
+  gap: 117px;
+}
+.section-title{
+  text-align:left;
 }
 .section-description{
   width: 562px;
@@ -272,4 +276,22 @@ footer{
   line-height: 1.75;
   text-align: left;
   color: #474747;
+}
+.contact input[type="text"] ,.contact input[type="email"],
+textarea{
+  display: block;
+  margin-bottom: 24px;
+  /* width: 461px;
+  height: 64px; */
+  flex-grow: 0;
+  /* margin: 24px 0 24px 117px;
+  padding: 18px 350px 18px 30px; */
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  padding: 18px 35px;
+  width:100% ;
+}
+.social-link{
+  margin-right: 24px;
 }
