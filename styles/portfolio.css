@@ -149,6 +149,29 @@ nav a {
   text-align: center;
   color: #757575;
  }
+ .about-info-container{
+  display: flex;
+  justify-content: space-around;
+ }
+ .about-info{
+  text-align: center;
+  /* font-weight: bold; */
+ }
+ .info-title{
+  font-weight: normal;
+  color: #757575;
+ }
+ .info-description{
+  color: #474747;
+  font-weight: bold;
+ }
+ 
+
+ /* main related styles */
+ main{
+  max-width: 1140px;
+  margin: 0 auto;
+ }
 
 
 
