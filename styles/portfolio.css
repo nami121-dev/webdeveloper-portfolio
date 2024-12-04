@@ -208,6 +208,28 @@ nav a {
     color: #474747;
   
 }
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.resume-item-institute ,.resume-item-description{
+  color: #757575;
+
+}
+.resume-item-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume-item-institute{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
 
 
 
