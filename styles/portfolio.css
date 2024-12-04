@@ -184,9 +184,31 @@ nav a {
   color: #181818;
 }
 
+/* skill related styles */
+
 #what-i-do-description{
   padding: 30px 150px;
 }
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+/* resume style */
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #474747;
+  
+}
+
 
 
 
